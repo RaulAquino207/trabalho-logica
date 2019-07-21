@@ -40,7 +40,6 @@ cursos_cadastrados = cursos_cadastrados.split(' ')
 cursos_cadastrados.pop()
 print(cursos_cadastrados)
 
-# → ʌ
 mesma_hora = ' → ¬mh'
 
 for index, curso in enumerate(cursos_cadastrados):
