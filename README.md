@@ -1,1 +1,0 @@
-# Trabalho-l-gica
