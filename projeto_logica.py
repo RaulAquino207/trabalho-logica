@@ -1,5 +1,4 @@
-from funcoes_projeto import imprimir_cursos, cadastrar_cursos, analisar_satisfatibilidade
-# analisar_satisfatibilidade()
+from funcoes_projeto import imprimir_cursos, cadastrar_cursos, analisar_satisfatibilidade, verificando_cursos
 
 validacao = True
 while(validacao):
@@ -7,6 +6,7 @@ while(validacao):
     print('')
     print('Para cadastrar cursos digite 1\nPara verificar se é possível ofertar os cursos preditos digite 2\n'
           'Para sair digite 3')
+    print()
     op = int(input('Digite a opção desejada: '))
     if op == 1:
         cursos_desejados = []
