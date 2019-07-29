@@ -13,8 +13,14 @@ while(validacao):
         qtd_cursos = int(input('Informe quantos cursos você deseja realizar: '))
 
         if qtd_cursos == 4:
-            todos_os_cursos = '1,2,3,4'
-            cadastrar_cursos(todos_os_cursos)
+            todos_os_cursos = []
+            tds = ''
+            for i in range(qtd_cursos):
+                todos_os_cursos.append(i + 1)
+            tds = str(todos_os_cursos).replace('[','')
+            tds = tds.replace(']', '')
+
+            cadastrar_cursos(tds)
 
         elif qtd_cursos < 4 and qtd_cursos > 0:
             for i in range(qtd_cursos):
